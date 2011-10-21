@@ -50,6 +50,7 @@ A simplification of Java I/O.
 >*Parameters:*
 
 >>`status` - The status with which to exit.
+
 >>`objects` - The arguments to print to `System.err`.
 
 **file**
@@ -97,6 +98,7 @@ A simplification of Java I/O.
 >*Throws:*
 
 >>`UnknownHostException` - If `localhost` does not exist.
+
 >>`IOException` - If an I/O error occurs.
 
 **newsocket**
@@ -116,6 +118,7 @@ A simplification of Java I/O.
 >*Throws:*
 
 >>`UnknownHostException` - If `localhost` does not exist.
+
 >>`IOException` - If an I/O error occurs.
 
 **newsocket**
@@ -135,6 +138,7 @@ A simplification of Java I/O.
 >*Throws:*
 
 >>`UnknownHostException` - If the given host does not exist.
+
 >>`IOException` - If an I/O error occurs.
 
 **newsocket**
@@ -146,6 +150,7 @@ A simplification of Java I/O.
 >*Parameters:*
 
 >>`addr` - The address that the `Socket` will point to.
+
 >>`port` - The port that the `Socket` will point to.
 
 >*Returns:*
@@ -155,6 +160,7 @@ A simplification of Java I/O.
 >*Throws:*
 
 >>`UnknownHostException` - If the given host does not exist.
+
 >>`IOException` - If an I/O error occurs.
 
 **print**
@@ -176,6 +182,7 @@ A simplification of Java I/O.
 >*Parameters:*
 
 >>`format` - The format string used to format the given arguments.
+
 >>`objects` - The arguments to print to `System.out`.
 
 **read**
@@ -219,6 +226,7 @@ A simplification of Java I/O.
 >*Parameters:*
 
 >>`filename` - The name of the file from which to read.
+
 >>`length` - The length of data to read from the given file.
 
 >*Returns:*
@@ -228,6 +236,7 @@ A simplification of Java I/O.
 >*Throws:*
 
 >>`FileNotFoundException` - If the file with the given name does not exist.
+
 >>`IOException` - If an I/O error occurs.
 
 **read**
@@ -269,6 +278,7 @@ A simplification of Java I/O.
 >*Parameters:*
 
 >>`lines` - The number of lines from read from the given socket.
+
 >>`socket` - The socket from which to read.
 
 >*Returns:*
@@ -288,6 +298,7 @@ A simplification of Java I/O.
 >*Parameters:*
 
 >>`data` - The elements to write, separated by newline, to the file with the given name.
+
 >>`filename` - The name of the file to write the given elements to.
 
 >*Throws:*
@@ -303,6 +314,7 @@ A simplification of Java I/O.
 >*Parameters:*
 
 >>`filename` - The name of the file to which to write.
+
 >>`objects` - The arguments to write, separated by newline, to the file.
 
 >*Throws:*
@@ -318,7 +330,9 @@ A simplification of Java I/O.
 >*Parameters:*
 
 >>`filename` - The name of the file to which to write.
+
 >>`offset` - The offset, in bytes, to begin writing to the file.
+
 >>`objects` - The arguments to write, separated by newline, to the file.
 
 >*Throws:*
@@ -334,6 +348,7 @@ A simplification of Java I/O.
 >*Parameters:*
 
 >>`socket` - The socket to which to write.
+
 >>`objects` - The arguments to write, separated by newline, to the socket.
 
 >*Throws:*
