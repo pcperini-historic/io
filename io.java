@@ -3,7 +3,7 @@
 //  io for Java
 //
 //  Created by Patrick Perini on 9/29/11.
-//  Copyright (c) 2011 Patrick Perini. All rights reserved.
+//  Licensing information available in README.md
 //
 
 import java.io.*;
